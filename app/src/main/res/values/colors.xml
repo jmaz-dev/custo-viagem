@@ -3,5 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blueNavbar">#6200EA</color>
-    <color name="greenButton">#81C784</color>
+    <color name="tealButton">#00C853</color>
 </resources>

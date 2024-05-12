@@ -20,7 +20,7 @@
                 android:textSize="16sp"
                 android:fontFamily="@font/montserrat"
                 android:layout_height="wrap_content"
-                android:text="@string/title"
+                android:text="@string/textTitle"
                 android:textStyle="bold" />
     </LinearLayout>
 
@@ -38,7 +38,7 @@
                 android:importantForAutofill="no"
                 android:inputType="number"
                 android:textSize="16sp"
-                android:hint="@string/input1"
+                android:hint="@string/editDistance"
 
                 android:layout_marginBottom="8dp" />
 
@@ -47,15 +47,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="32dp"
-                android:text="@string/hint_input1" />
+                android:text="@string/textDistance" />
 
         <EditText
                 android:id="@+id/edit_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:inputType="numberDecimal"
                 android:textSize="16sp"
-                android:hint="@string/input2"
+                android:hint="@string/editPrice"
                 android:importantForAutofill="no"
                 android:layout_marginBottom="8dp" />
 
@@ -63,16 +63,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/hint_input2"
+                android:text="@string/textPrice"
                 android:layout_marginBottom="32dp" />
 
         <EditText
                 android:id="@+id/edit_auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:textSize="16sp"
-                android:hint="@string/input3"
+                android:hint="@string/editAuto"
                 android:importantForAutofill="no"
                 android:layout_marginBottom="8dp" />
 
@@ -81,14 +81,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="32dp"
-                android:text="@string/hint_input3" />
+                android:text="@string/textAuto" />
 
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textAllCaps="true"
-                android:text="@string/gastoFinal"
+                android:text="@string/textGastoFinal"
                 android:layout_marginBottom="8dp" />
 
 
@@ -96,9 +96,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:id="@+id/textTotalPrice"
                 android:textAllCaps="true"
                 android:textSize="32sp"
-                android:text="@string/r_0"
+                android:text="@string/textPriceValue"
                 android:layout_marginBottom="16dp" />
 
         <Button
@@ -109,9 +110,9 @@
                 android:paddingVertical="16dp"
                 android:textAllCaps="true"
                 android:textSize="16sp"
-                android:backgroundTint="@color/greenButton"
+                android:backgroundTint="@color/tealButton"
                 android:textColor="@color/white"
-                android:text="@string/button01"
+                android:text="@string/buttonCalc"
                 app:cornerRadius="4dp" />
 
     </LinearLayout>
